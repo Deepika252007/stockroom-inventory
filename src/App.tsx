@@ -982,6 +982,16 @@ function DashboardPage({ data, ownerDash, report, reportPeriod, purchaseRequests
             <TxTable transactions={ownerDash.recentSales} currency={currency} canFinancials={canFinancials} onInvoice={onInvoice} />
           </Panel>
         )}
+
+        {/* ── Quick Actions ─────────────────────────────────────────────────── */}
+        <div className="quick-actions">
+          <button className="qa-btn" onClick={() => onNav('products')}><Package size={20} /><span>Products</span></button>
+          <button className="qa-btn" onClick={() => onModal('purchase')}><Truck size={20} /><span>Receive Stock</span></button>
+          <button className="qa-btn" onClick={() => onNav('sales')}><ShoppingCart size={20} /><span>Sales</span></button>
+          <button className="qa-btn" onClick={() => onNav('reports')}><BarChart2 size={20} /><span>Reports</span></button>
+          <button className="qa-btn" onClick={() => onNav('users')}><Users size={20} /><span>Team</span></button>
+          <button className="qa-btn" onClick={() => onModal('damaged')}><AlertCircle size={20} /><span>Report Damage</span></button>
+        </div>
       </div>
     );
   }
