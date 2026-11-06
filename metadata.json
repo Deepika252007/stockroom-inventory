@@ -1,0 +1,6 @@
+{
+  "name": "Zapline - Royal Violet Trading CTA Hero",
+  "description": "Cinematic trading-product hero for Zapline featuring a violet planetary rim video, procedural starfield, and an interactive dark glass on-chain trading dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
