@@ -1094,7 +1094,6 @@ function DashboardPage({ data, ownerDash, report, reportPeriod, purchaseRequests
           <button className="qa-btn" onClick={() => onNav('products')}><Package size={20} /><span>Products</span></button>
           <button className="qa-btn" onClick={() => onModal('purchase')}><Truck size={20} /><span>Receive Stock</span></button>
           <button className="qa-btn" onClick={() => onModal('purchase_request')}><FileText size={20} /><span>Request Stock</span></button>
-          <button className="qa-btn" onClick={() => onNav('suppliers')}><ClipboardList size={20} /><span>Suppliers</span></button>
           <button className="qa-btn" onClick={() => onNav('reports')}><BarChart2 size={20} /><span>Reports</span></button>
           <button className="qa-btn" onClick={() => onModal('damaged')}><AlertCircle size={20} /><span>Report Damage</span></button>
         </div>
